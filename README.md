@@ -1,29 +1,36 @@
-# Mental Health Check-In Bot
+# 🧠 Mental Health Check-in Bot
+This is a Python-based command-line tool to help users check in with their mental health. It allows you to log your mood and its intensity, get simple suggestions based on how you feel, and generate a graph to visualize your mood trends over time.
 
-A simple and interactive Python command-line application designed to help users regularly check in on their mental well-being by logging their mood over time. This project aims to promote self-awareness and provide an easy way to track emotional health trends.
+## ✅ What It Does
+- Prompts the user to choose a mood (e.g., Happy, Sad, Stressed).  
+- Asks for intensity (1–10 scale).  
+- Saves your mood, intensity, and timestamp to a CSV file (`mood_log.csv`).  
+- Gives self-care suggestions for negative or high-intensity moods.  
+- Plots a graph of mood intensity over time.  
+- Everything is managed through a single CLI menu script.
 
----
+## 🧱 Project Structure
+├── checkin.py # Logs mood + intensity and gives suggestions
+├── plot_mood.py # Reads mood_log.csv and plots intensity over time
+├── main.py # CLI menu to run the bot (log mood or show graph)
+├── mood_log.csv # Automatically created to store mood check-ins
+├── .gitignore # Ignores system and cache files (e.g., pycache)
+└── README.md # This file
 
-## 🚀 Features
-
-- Prompt users to input their current mood via a friendly CLI interface.
-- Store mood entries with timestamps in a CSV file for easy review.
-- Simple, lightweight, and easy to extend with new features.
-- Provides a foundation for building mental wellness tools using Python.
-
----
-
-## 💻 Getting Started
-
-### Prerequisites
-
-- Python 3.6 or higher installed on your system.  
-- Basic familiarity with running Python scripts from the terminal.
-
-### Installation & Setup
-
-1. **Clone the repository:**
-
+## 💻 How to Set Up
+1. Clone the Repo  
    ```bash
-   git clone git@github.com:fiyinfoluwa-sys/mental-health-checkin-bot.git
+   git clone https://github.com/fiyinfoluwa-sys/mental-health-checkin-bot.git
    cd mental-health-checkin-bot
+
+## 🕹️ How to Use It
+- Run the main CLI menu script:
+  ```bash
+  python3 main.py
+- Then you'll see:
+   1. Check in with your mood
+   2. View mood graph
+   3. Exit
+
+
+   
