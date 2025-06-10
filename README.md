@@ -31,22 +31,22 @@ The **Mental Health Check-In Bot** is a beginner-friendly Python-based chatbot d
 
 ## ✅ Features
 
-- 📆 Daily or on-demand mood check-in
-- ✍️ Free-text journaling with optional AI feedback
-- 🌈 Mood scale selection (1–10) + emotion labeling
-- 🧠 NLP-driven tone detection and journaling sentiment (in progress)
-- 💡 Prompts tailored to emotional state (e.g., "I'm tired" triggers coping tips)
-- 💾 Local session-based storage (WIP: persistent tracking with SQLite)
+- Daily or on-demand mood check-in
+- Free-text journaling with optional AI feedback
+- Mood scale selection (1–10) + emotion labeling
+- NLP-driven tone detection and journaling sentiment (in progress)
+- Prompts tailored to emotional state (e.g., "I'm tired" triggers coping tips)
+- Local session-based storage (WIP: persistent tracking with SQLite)
 
 ---
 
 ## 🔮 Future Improvements
 
-- 📱 Deploy to mobile using React Native or Flutter
-- 🧩 Integrate with a larger mental wellness dashboard
-- 🧬 Add symptom-specific modules (e.g., PCOS, ADHD, social anxiety)
-- 🛎️ Gentle daily reminders with opt-in check-in scheduling
-- 🌐 Web-based platform with anonymous login or journaling via OAuth
+- Deploy to mobile using React Native or Flutter
+- Integrate with a larger mental wellness dashboard
+- Add symptom-specific modules (e.g., PCOS, ADHD, social anxiety)
+- Gentle daily reminders with opt-in check-in scheduling
+- Web-based platform with anonymous login or journaling via OAuth
 
 ---
 
@@ -58,11 +58,11 @@ The **Mental Health Check-In Bot** is a beginner-friendly Python-based chatbot d
 2. The user types: `4`
 3. The bot replies: *"Thanks for sharing. Want to tell me more about what's going on?"*
 4. The user responds: *"I'm feeling burned out. Too many deadlines and not enough sleep."*
-5. The bot uses the OpenAI API to analyze tone and detects symptoms of academic burnout.
+5. The bot uses the OpenAI API to analyze tone and detect symptoms of academic burnout.
 6. It replies with:
    > "It sounds like you’re under a lot of pressure. You might want to take a short break—maybe even just a walk. Would you like a list of simple stress relievers?"
 7. The user types `yes`, and the bot shares 3 short coping strategies.
-8. Afterward, the session is saved locally and a positive affirmation is shared.
+8. Afterward, the session is saved locally, and a positive affirmation is shared.
 
 ---
 
