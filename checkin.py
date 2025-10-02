@@ -1,3 +1,13 @@
+import os
+from dotenv import load_dotenv
+import openai
+
+# Load .env file
+load_dotenv()
+
+# Get API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 import csv
 from datetime import datetime
 
