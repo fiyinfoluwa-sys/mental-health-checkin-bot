@@ -93,4 +93,4 @@ pipenv.lock
 
 # Others
 *.csv
-
+.env
